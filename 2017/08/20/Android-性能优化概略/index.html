@@ -12,7 +12,7 @@
     
     <title>
         
-            Android 开发自测试 - Monkeyrunner | 
+            Android 性能优化概略 | 
         
         Aaron&#39;s
     </title>
@@ -67,18 +67,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://yoursite.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Android 开发自测试 - Monkeyrunner | Aaron&#39;s">
+    <meta property="og:title" content="Android 性能优化概略 | Aaron&#39;s">
     <meta property="og:image" content="/img/favicon.png" />
     <meta property="og:description" content="">
     
 
     
-        <meta property="article:published_time" content="6月 22, 2017" />
-        <meta property="article:modified_time" content="6月 25, 2017" />
+        <meta property="article:published_time" content="8月 20, 2017" />
+        <meta property="article:modified_time" content="8月 20, 2017" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="Android 开发自测试 - Monkeyrunner | Aaron&#39;s">
+    <meta name="twitter:title" content="Android 性能优化概略 | Aaron&#39;s">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="/img/favicon.png">
     <meta name="twitter:card" content="summary_large_image" />
@@ -86,7 +86,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com/2017/06/22/Android-开发自测试-Monkeyrunner/index.html" />
+        <link rel="canonical" href="http://yoursite.com/2017/08/20/Android-性能优化概略/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -112,10 +112,10 @@
         },
         "description": "Hi, nice to meet you"
     },
-    "headline": "Android 开发自测试 - Monkeyrunner",
-    "url": "http://yoursite.com/2017/06/22/Android-开发自测试-Monkeyrunner/index.html",
-    "datePublished": "6月 22, 2017",
-    "dateModified": "6月 25, 2017",
+    "headline": "Android 性能优化概略",
+    "url": "http://yoursite.com/2017/08/20/Android-性能优化概略/index.html",
+    "datePublished": "8月 20, 2017",
+    "dateModified": "8月 20, 2017",
     "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
@@ -341,7 +341,7 @@
 
     
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#为什么要用-Monkeyrunner？"><span class="post-toc-number">1.</span> <span class="post-toc-text">为什么要用 Monkeyrunner？</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Monkeyrunner-的环境搭建"><span class="post-toc-number">2.</span> <span class="post-toc-text">Monkeyrunner 的环境搭建</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Hello-World"><span class="post-toc-number">3.</span> <span class="post-toc-text">Hello World</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#尾巴"><span class="post-toc-number">4.</span> <span class="post-toc-text">尾巴</span></a></li></ol>
+        
         <!--
         <li class="mdl-menu__item">
             Some Action
@@ -379,7 +379,7 @@
         
     
             <p class="article-headline-p">
-                Android 开发自测试 - Monkeyrunner
+                Android 性能优化概略
             </p>
         </div>
 
@@ -398,7 +398,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>Aaron Von</strong>
-        <span>6月 22, 2017</span>
+        <span>8月 20, 2017</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -476,76 +476,7 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <blockquote>
-<p>我们在做 Android 开发自测试的时候除了最基本的 LLT，也可以放出<a href="https://developer.android.com/studio/test/monkey.html" target="_blank" rel="external">一只野猴子</a>来测试我们的代码健壮性以及程序的稳定性。不过今天我们要当一回驯兽师，训练一只聪明一点儿的猴子 -&gt; <a href="https://developer.android.com/studio/test/monkeyrunner/index.html" target="_blank" rel="external">Monkeyrunner</a></p>
-</blockquote>
-<h3 id="为什么要用-Monkeyrunner？"><a href="#为什么要用-Monkeyrunner？" class="headerlink" title="为什么要用 Monkeyrunner？"></a>为什么要用 Monkeyrunner？</h3><p>Monkey 工具其实只是一只野猴子，想想你把手机给你三岁儿子玩儿的场景吧，他也就只会一顿瞎摁，操作是没有逻辑性的。所以一般我们实际环境中只会将其作为压力测试的工具。而 Monkeyrunner 干的活可就多了，它就像是你儿子长到 5 岁了，可以让他做一些连贯、需要逻辑处理能力的小事了。</p>
-<p><br></p>
-<h3 id="Monkeyrunner-的环境搭建"><a href="#Monkeyrunner-的环境搭建" class="headerlink" title="Monkeyrunner 的环境搭建"></a>Monkeyrunner 的环境搭建</h3><p>闲话少说，Monkeyrunner 的环境搭建还是很简单的：</p>
-<ol>
-<li>Android SDK</li>
-<li>Java JDK</li>
-<li>Python </li>
-</ol>
-<p>就是这么简单粗暴！</p>
-<p><br></p>
-<h3 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h3><blockquote>
-<p>下面我们来看一个 Monkeyrunner 版的 <code>Hello World</code></p>
-</blockquote>
-<pre class=" language-python"><code class="language-python"><span class="token comment" spellcheck="true"># Talk is cheap, show me the code.</span>
-<span class="token keyword">from</span> com<span class="token punctuation">.</span>android<span class="token punctuation">.</span>monkeyrunner <span class="token keyword">import</span> MonkeyRunner<span class="token punctuation">,</span> MonkeyDevice
-
-device <span class="token operator">=</span> MonkeyRunner<span class="token punctuation">.</span>waitForConnection<span class="token punctuation">(</span><span class="token punctuation">)</span>
-
-package <span class="token operator">=</span> <span class="token string">'com.pioneer.aaron.dolly'</span>
-
-activity <span class="token operator">=</span> <span class="token string">'com.pioneer.aaron.dolly.MainActivity'</span>
-
-activityToRun <span class="token operator">=</span> package <span class="token operator">+</span> <span class="token string">'/'</span> <span class="token operator">+</span> activity
-
-device<span class="token punctuation">.</span>startActivity<span class="token punctuation">(</span>activityToRun<span class="token punctuation">)</span>
-
-MonkeyRunner<span class="token punctuation">.</span>sleep<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span>
-exp_main <span class="token operator">=</span> device<span class="token punctuation">.</span>takeSnapshot<span class="token punctuation">(</span><span class="token punctuation">)</span>
-
-device<span class="token punctuation">.</span>touch<span class="token punctuation">(</span><span class="token number">520</span><span class="token punctuation">,</span> <span class="token number">400</span><span class="token punctuation">,</span> MonkeyDevice<span class="token punctuation">.</span>DOWN_AND_UP<span class="token punctuation">)</span>
-
-MonkeyRunner<span class="token punctuation">.</span>sleep<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span>
-device<span class="token punctuation">.</span>press<span class="token punctuation">(</span><span class="token string">'KEYCODE_BACK'</span><span class="token punctuation">,</span> MonkeyDevice<span class="token punctuation">.</span>DOWN_AND_UP<span class="token punctuation">)</span>
-
-MonkeyRunner<span class="token punctuation">.</span>sleep<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span>
-actual_main <span class="token operator">=</span> device<span class="token punctuation">.</span>takeSnapshot<span class="token punctuation">(</span><span class="token punctuation">)</span>
-
-<span class="token keyword">print</span> <span class="token string">"Return to MainActivity:"</span><span class="token punctuation">,</span> exp_main<span class="token punctuation">.</span>sameAs<span class="token punctuation">(</span>actual_main<span class="token punctuation">,</span> <span class="token number">0.9</span><span class="token punctuation">)</span>
-
-<span class="token comment" spellcheck="true"># exp_main.writeToFile('~/Desktop/screenshot1.png', 'png')</span>
-</code></pre>
-<p>Monkeyrunner 提供了三个模块，分别为:</p>
-<ul>
-<li><p><a href="https://developer.android.com/studio/test/monkeyrunner/MonkeyRunner.html" target="_blank" rel="external">MonkeyRunner</a>: 用于连接 Android 设备，真机/模拟器均可；</p>
-</li>
-<li><p><a href="https://developer.android.com/studio/test/monkeyrunner/MonkeyDevice.html" target="_blank" rel="external">MonkeyDevice</a>: 用于与设备的交互。操作的事件、安装 APK 什么的都通过它；</p>
-</li>
-<li><p><a href="https://developer.android.com/studio/test/monkeyrunner/MonkeyImage.html" target="_blank" rel="external">MonkeyImage</a>: 镜像？不，真的就是的’图像’，不过这个图像可是 Monkeyrunner 非常重要的一环。</p>
-</li>
-</ul>
-<p>稍微过一下我们上面的代码：</p>
-<ol>
-<li><code>MonkeyRunner.waitForConnection()</code> 获取到了我们的设备对象，</li>
-<li><code>device.startActivity(activityToRun)</code> 启动了一个指定的 Activity，对了这个 APP <a href="https://github.com/AaronVon/Dolly" target="_blank" rel="external">在这里</a>，欢迎 <code>PR</code>。</li>
-<li><code>screenshot = device.takeSnapshot()</code> 截了一张图。</li>
-</ol>
-<p>这个时候重点来了[敲黑板]，<code>MonkeyImage</code> 可以用指定的偏差率来对比像素之间的差异以确定图片的相似性。说中文就是：我们可以用一张期望正确的图片来对比实际的图片，如果一样(误差范围内)，那么就证明我们的操作成功了。</p>
-<p>在上面的代码中，我点击了一下屏幕 <code>坐标(520, 400)</code>，然后按了一下返回键 <code>KEYCODE_BACK</code>，这个时候我们当然期望的是进入返回栈中第二个界面，在这里也就是我们的 <code>MainActivity</code>。然后使用 <code>MonkeyImage.sameAs()</code> 判断返回成功与否。</p>
-<p>当然如此简单的一个用例，返回了</p>
-<pre class=" language-bash"><code class="language-bash">$ Return to MainActivity: True
-</code></pre>
-<p><br></p>
-<h3 id="尾巴"><a href="#尾巴" class="headerlink" title="尾巴"></a>尾巴</h3><hr>
-<p>以前在学校中写程序，只要能跑起来就行了，充其量是个 DEMO 的阶段，对健壮性、稳定性都不做过多要求。但是现在真正开始写商业软件才发现，一个 <code>NPE</code> 可能就是几条产品线的停工。虽然 <code>Defensive Programming</code> 会让代码看上去面目可憎，但这确实是实际环境中必不可少的一环，这都是无数血泪换来的教训。</p>
-<p>当然现在 <code>SDK</code> 已经 自带了 <code>EasyMonkeyDevice</code> 模块，可以让测试代码更加 ‘人性化’ 一点儿。就放在下次再写了吧~</p>
-<p><br></p>
-
+        
     
 
     
@@ -564,21 +495,13 @@ actual_main <span class="token operator">=</span> device<span class="token punct
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2017/07/06/Reverse-Engineering-on-APK/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            新篇
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/2017/06/18/Hexo-Troubleshooting/" id="post_nav-older" class="next-content">
+        <a href="/2017/07/06/Reverse-Engineering-on-APK/" id="post_nav-older" class="next-content">
             旧篇
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
